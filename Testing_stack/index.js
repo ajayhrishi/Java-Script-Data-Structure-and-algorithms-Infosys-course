@@ -17,6 +17,7 @@ function peek(){
    return this.content[this.top-1];
 }
 
+
 function pop(){
 
     return this.content[--this.top];
@@ -30,10 +31,20 @@ function length(){
     return this.top;
 }
 
+
 var s = new stack();
 s.push("Ajay Hrishi");
 s.push("Jacob");
 s.push("John marker");
 s.push("Herold");
 
-console.log("length of the stack is:"+s.length());
+console.log("length of the stack is: "+s.length());
+console.log(s.peek());
+s.pop();
+console.log(s.peek());
+s.push("Daimond");
+s.push("Steve");
+s.push("Robert");
+s.push("Jenny");
+console.log(s.length());
+console.log(s.peek());
