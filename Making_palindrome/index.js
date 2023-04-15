@@ -1,43 +1,62 @@
-console.log("Testing the palindrome here.");
-
 function Stack(){
-   this.content = [];
-   this.top= 0;
-   this.push = push;
-   this.pop = pop;
-   this.peek = peek;
+  this.contents= [];
+  this.top = 0;
+  this.push = push;
+  this.pop = pop;
+  this.clear = clear;
+  this.peek = peek;
+  this.length = length;
 }
 
 function push(word){
-  this.content[this.top++]= word;
-    
-}
-
-function peek(){
-    return this.content[this.top-1];
+  this.contents[this.top++]= word;
 }
 
 function pop(){
-    return this.content[--this.top];
+ return this.contents[--this.top];
 }
 
-var c = new Stack();
-
-function isPalindrom(word)
+function peek(){
+  return this.contents[this.top-1];
+}
+function clear()
 {
-  for(let q=0; word.length>q;++q){
-    c.push(word[q]);
-  }
-
-
-  var reversed = "";
-  while(word.length>0){
-    reversed += c.pop();
-    console.log(word[q]);
-  }
-  console.log(`The actual word: ${word}`);
-  console.log(`Reversed word: ${reversed}`);
-  if (word==reversed){return true;} else {return false;}
+  this.top = 0;
 }
 
-isPalindrom("Ajay");
+function length(){
+  return this.top;
+}
+
+function isPalidrom(word)
+{
+  var g = new Stack();
+  for (let z = 0; z<word.length; z++)
+  {
+    g.push(word[z]);
+  }
+
+  var reversed= "";
+  while(g.length()>0)
+  {
+    reversed += g.pop();
+  }
+
+  if(reversed == word)
+  {
+    return true;
+  }
+  else
+{return false;}
+}
+
+let word = "malayalam";
+if(isPalidrom(word))
+{
+  console.log(word+" is a palindrome");
+}
+
+else
+{
+  console.log(word+" is not a palindrome");
+}
