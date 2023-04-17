@@ -27,7 +27,6 @@ function length(){
     return this.top;
 }
 
-
 function factorial(number){
     let c = new Stack();
     for (let q =1; q<=number ; q++)

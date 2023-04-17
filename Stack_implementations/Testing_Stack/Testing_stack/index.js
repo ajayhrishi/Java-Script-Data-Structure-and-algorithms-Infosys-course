@@ -1,5 +1,4 @@
 function stack(){
-
   this.content = [];
   this.top = 0;
   this.push = push;
@@ -7,7 +6,6 @@ function stack(){
   this.peek = peek;
   this.clear = clear;
   this.length = length;
-
 }
 function push(element){
    this.content[this.top++]= element;
@@ -33,6 +31,7 @@ function length(){
 
 
 var s = new stack();
+
 s.push("Ajay Hrishi");
 s.push("Jacob");
 s.push("John marker");
@@ -48,3 +47,11 @@ s.push("Robert");
 s.push("Jenny");
 console.log(s.length());
 console.log(s.peek());
+s.pop();
+console.log(s.peek());
+s.pop();
+console.log(s.peek());
+
+s.clear();
+console.log(s.length());
+
