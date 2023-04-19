@@ -11,7 +11,7 @@ function enqueue(element){
  this.Content.push(element);}
 
 function dequeue(){
-    this.Content.pop();}
+    this.Content.shift();}
 
 function front(){
     return `The first element is ${this.Content[0] }`;}
