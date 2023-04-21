@@ -1,0 +1,8 @@
+To get a deep knowldge I have decided to go through the pdf version of JavaScript Data
+Structures and Algorithms by Sammie Bae
+
+Currenty I have finshed first two chapters 
+- Chapter 1: Big-O Notation
+- Chapter 2: JavaScript: Unique Parts
+
+I am at the page 20 now. 
