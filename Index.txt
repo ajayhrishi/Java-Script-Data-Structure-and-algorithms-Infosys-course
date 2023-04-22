@@ -4,7 +4,7 @@ Structures and Algorithms by Sammie Bae
 Currenty I have finshed first two chapters 
 - Chapter 1: Big-O Notation
 - Chapter 2: JavaScript: Unique Parts
-
 - Once I finsh this book. I will head over to infosys Data Structure course and claim the cirtificate. 
 - Plans after that is to start working on leet code problems. 
-I am at the page 20 now. 
+
+- Chapter 3 finished. At page 34. 
