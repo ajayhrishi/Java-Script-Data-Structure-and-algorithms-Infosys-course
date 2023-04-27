@@ -8,6 +8,5 @@ Currenty I have finshed first two chapters
 - Plans after that is to start working on leet code problems. 
 
 - Chapter 3 finished. At page 34. 
-- Chapter 4 
-
-- currently going through. At page 41 Query String
+- Chapter 4 Finished
+  - At page 50
